@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: terraform
+spec:
+  storageClassName: terraform
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 1Gi
