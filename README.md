@@ -8,7 +8,7 @@
     $ cd terraform-kubernetes-in-cluster
     ```
 
-1. Prepare a Kubernetes cluster.
+1. Prepare a Kubernetes cluster(must be [KinD](https://kind.sigs.k8s.io/)).
 
 1. Provision storage class, PV and PVC:
     ```console
