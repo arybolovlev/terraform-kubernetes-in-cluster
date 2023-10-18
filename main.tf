@@ -15,7 +15,7 @@ resource "kubernetes_namespace_v1" "this" {
 
 resource "kubernetes_pod_v1" "this" {
   metadata {
-    name      = "this"
+    name = "this"
   }
   spec {
     container {
