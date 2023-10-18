@@ -13,6 +13,6 @@ spec:
   volumes:
     - name: terraform
       persistentVolumeClaim:
-        claimName: this
+        claimName: terraform
   restartPolicy: Never
   terminationGracePeriodSeconds: 1
